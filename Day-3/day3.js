@@ -26,7 +26,20 @@ function removeDublicates(arr) {
   let uniqueArray = [];
   for (let i = 0; i < arr.length; i++) {
     if (!uniqueArray.includes(arr[i])) {
-      uniqueArray.push(arr[i]);
-    }
-  }
+      uniqueArray.push(arr[i]);}
+ }
 };
+
+// bonus part 
+ 
+function fizzBuzz {
+  for (let i =1 ; i <= 100; i++){
+    if(i%3 === 0 && i % 5 === 0) {
+      console.log("FizzBuzz");
+    }else if (i % 3 === 0) {
+ console.log("Fizz");
+    }else if (i % 5 === 0) {
+      console.log("Buzz");
+  } 
+ } 
+ };
