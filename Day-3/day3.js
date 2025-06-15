@@ -22,17 +22,18 @@ console.log(reverseString("Hello World!"));
 
 // task 3 : remove duplicates from an array
 
-function removeDublicates(arr) {
+function removeDub(arr) {
   let uniqueArray = [];
   for (let i = 0; i < arr.length; i++) {
     if (!uniqueArray.includes(arr[i])) {
       uniqueArray.push(arr[i]);}
  }
+ return uniqueArray;
 };
 
 // bonus part 
  
-function fizzBuzz {
+function fizzBuzz () {
   for (let i =1 ; i <= 100; i++){
     if(i%3 === 0 && i % 5 === 0) {
       console.log("FizzBuzz");
@@ -43,3 +44,7 @@ function fizzBuzz {
   } 
  } 
  };
+console.log(fizzBuzz());
+
+
+//  day 3 task start here
