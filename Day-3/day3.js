@@ -19,3 +19,14 @@ function reverseString(str) {
   return str.split("").reverse().join('');
 }
 console.log(reverseString("Hello World!"));
+
+// task 3 : remove duplicates from an array
+
+function removeDublicates(arr) {
+  let uniqueArray = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (!uniqueArray.includes(arr[i])) {
+      uniqueArray.push(arr[i]);
+    }
+  }
+};
