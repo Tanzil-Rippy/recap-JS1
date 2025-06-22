@@ -5,3 +5,5 @@ Array.prototype.myMap = function (callback) {
   }
     return result;
 };
+
+
